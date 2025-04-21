@@ -1,0 +1,14 @@
+﻿body {
+    background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    font-weight: bolder;
+    font-family: Garamond;
+    color:darkslategrey;
+    text-align: center;
+}
+.intro{
+    font-family:Garamond;
+    color:darkslategrey;
+}

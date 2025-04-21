@@ -1,7 +1,7 @@
-body
+﻿body {
+    body
 
 {
-    font-family:Garamond;
     background-color: lightcyan;
 }
 
@@ -108,7 +108,7 @@ section {
     text-decoration: none;
 }
 
-#contactme button {
+    #contactme button {
         background-color: transparent;
         color: darkblue;
         border: 1px solid darkblue;
@@ -118,23 +118,12 @@ section {
         font-size: 1em;
         text-decoration: none;
     }
-#contactme button:hover {
+
+        #contactme button:hover {
             background-color: gray; /*changes colour of the button on hovering*/
             color: lightcyan;
         }
-
-.genrebutton button {
-    background-color: transparent;
-    color: darkblue;
-    border: 1px solid darkblue;
-    padding: 8px 15px;
-    border-radius: 5px; /*Makes button corners round*/
-    cursor: pointer;
-    font-size: 1em;
-}
-
-    .genrebutton button:hover {
-        background-color: gray; /*changes colour of the button on hovering*/
-        color: lightcyan;
-    }
-  
+ 
+ 
+ 
+  }
