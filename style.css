@@ -1,4 +1,5 @@
-body
+body {
+    body
 
 {
     background-color: lightcyan;
@@ -122,6 +123,32 @@ section {
             background-color: gray; /*changes colour of the button on hovering*/
             color: lightcyan;
         }
- 
- 
+}
+.genrebutton {
+    margin: 0;
+    padding: 0;
+    display: flex; /*Arrange list items horizontal*/
+    justify-content: center; /*Made the text within the buttons to be centre aligned*/
+    text-decoration: none;
+}
 
+
+.genrebutton button {
+    background-color: transparent;
+    color: darkblue;
+    border: 1px solid darkblue;
+    padding: 8px 15px;
+    border-radius: 5px; /*Makes button corners round*/
+    cursor: pointer;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+   .genrebutton button :hover {
+        background-color: gray; /*changes colour of the button on hovering*/
+        color: lightcyan;
+    }
+ 
+ 
+ 
+  }
