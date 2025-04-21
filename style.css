@@ -132,7 +132,6 @@ section {
     text-decoration: none;
 }
 
-
 .genrebutton button {
     background-color: transparent;
     color: darkblue;
@@ -144,7 +143,7 @@ section {
     text-decoration: none;
 }
 
-   .genrebutton button :hover {
+       .genrebutton button:hover {
         background-color: gray; /*changes colour of the button on hovering*/
         color: lightcyan;
     }
