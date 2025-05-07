@@ -1,15 +1,28 @@
+* {
+    box-sizing:border-box;
+}
+
 body {
+    width:contain;
     font-family: Garamond;
     background-color: lightcyan;
+    text-indent: 20px;
 }
+
+
 title {
     color: darkblue
+}
+
+article p::first-letter, .intro p::first-letter{
+    font-size:2em;
 }
 
 h1 {
     color: darkblue;
     font-size: 4em;
     text-align:center;
+    text-shadow: 2px 5px 5px grey;
 }
 .intro a {
     list-style-type: none;
@@ -64,20 +77,23 @@ th, td {
 .intro h2 {
     font-size: 3em;
     color: lightcyan;
-    background-color:steelblue;
+    background-color: steelblue;
     text-align: center;
+    text-shadow: 2px 5px 5px darkblue;
 }
 h3 {
     font-size: 2em;
     color: lightcyan;
     background-color: steelblue;
     text-align: center;
+    text-shadow: 2px 5px 5px darkblue;
 }
 h4, h5 {
     font-size: 1em;
     color: lightcyan;
     background-color: steelblue;
     text-align: center;
+    text-shadow: 2px 5px 5px darkblue;
 }
 
 .navbar {
@@ -156,10 +172,17 @@ section {
     color:darkblue;
     font-size:1em;
 }
-h6{
-    color:darkblue;
+h6 {
+    color: darkblue;
     font-size: 1em;
-    text-align:center;
+    font: italic bold;
+    text-align: center;
+    
+}
+#bgcolor {
+    background-color: transparent;
+    color:darkblue;
+    text-shadow:none;
 }
 
 .bookimg{
@@ -219,4 +242,8 @@ figcaption{
     .genrebutton button :hover {
         background-color: gray; /*changes colour of the button on hovering*/
         color: lightcyan;
+    }
+    
+    
+
     }
